@@ -1,0 +1,3 @@
+SELECT * FROM Categories;
+SELECT CategoryName FROM Categories;
+SELECT CategoryName, Description FROM Categories;
