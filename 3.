@@ -1,0 +1,2 @@
+SELECT * FROM Suppliers WHERE Country = 'UK' or Country = 'USA';
+SELECT * FROM Suppliers WHERE Country = 'USA' and City = 'Boston' or City = 'New Orleans';
