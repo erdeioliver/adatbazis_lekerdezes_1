@@ -1,0 +1,7 @@
+SELECT ProductName, Unit, Price FROM Products;
+SELECT * FROM Products WHERE Price < 20;
+SELECT * FROM Products WHERE Price > 20 and Price < 30;
+SELECT * FROM Products WHERE Price != 10;
+SELECT * FROM Products WHERE ProductName LIKE 'T%';
+SELECT * FROM Products WHERE ProductName LIKE 'Louisiana%';
+SELECT distinct Country FROM Suppliers;
